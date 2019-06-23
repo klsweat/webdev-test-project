@@ -50,6 +50,10 @@ $(document).ready(function () {
     });
     $("#myModal").modal('show'); //This can also be $("#myModal").modal({ show: true });
 
+    $('#myModal').on('hidden.bs.modal', function (e) {
+      $('.p-small').show();
+    });
+
   });
   
   

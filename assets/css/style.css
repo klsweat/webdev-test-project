@@ -182,6 +182,9 @@ section {
     font-size: smaller;
     letter-spacing: 2px;
 }
+.card-img-top{
+    height: 100%;
+}
 .teamRow .card{
     border: 0px;
 }
