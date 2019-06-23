@@ -237,6 +237,9 @@ hr.new1 {
 .modal-desc{
     padding-top:5px;
 }
+.modal-title{
+    text-transform: uppercase;
+}
 .bottom {
     height: 100px;
     display: table;

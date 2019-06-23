@@ -40,9 +40,8 @@ $('.p-info').hide();
 $(document).ready(function () {
   $('.hovereffect').on('click', function () {
     let img = $(this).find('img')[0].src; // get img src
-    let title = $(this).find('h2')[0].innerText; // get img h2
+    let title = $(this).find('h2')[0].innerHTML; // get img h2
     let pdesc = $(this).find('.p-info')[0].innerText; // get desc
-    console.log(pdesc)
     $('#myModal').on('show.bs.modal', function () {
       $(".showimage").attr("src", img);          
       $('.modal-title').html(title);
