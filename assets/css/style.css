@@ -1,0 +1,594 @@
+/* Set content container to 1180
+-------------------------------------------------- */
+.container {
+    max-width: 1180px;
+}
+
+/* Main Header Section
+-------------------------------------------------- */
+.jumbotron{
+    background-image: url("../images/hero.jpg");
+    height: -webkit-fill-available;
+}
+
+.jumbotron p {
+    color: black;
+}
+
+.just {
+    text-align: justify;
+    color: white;
+}
+
+/* Gallery/Portfolio CSS
+-------------------------------------------------- */
+.gallery-title {
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.portfolioW {
+    width: 100%;
+}
+
+/* no-gutters Class Rules
+-------------------------------------------------- */
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* Footer CSS
+-------------------------------------------------- */
+#footer .copyright {
+    text-align: center;
+    padding: 30px;
+    color: #535074;
+    font-size: 15px;
+    color: white;
+}
+#footer .footer-top {
+    padding: 60px 0 30px 0;
+}
+.footer-bottom{
+    background: black;
+}
+.copyright strong{
+    color:  #22ad21;
+}
+.footer-top{
+    color: white;
+}
+
+/* Navbar CSS
+-------------------------------------------------- */
+.navbar-dark .navbar-toggler{
+    background-color: #f6cd5f;
+}
+.navbar-nav {
+    flex-direction: row;
+}
+.nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    font-weight: 700;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #22ad21;
+}
+.headerLogo {
+    width: 120px;
+}
+.header1 {
+    background: rgba(204, 204, 204, 0.5);
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10%;
+    height: 56PX;
+    font-size: 24PX;
+}
+.header {
+    width: 218px;
+}
+.header img {
+    float: left;
+    width: 100px;
+}
+
+.header h1 {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.fixed-top{
+    background-color: white;
+}
+
+/* Fixes dropdown menus placed on the right side
+-------------------------------------------------- */
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}
+
+/* Custom Body Changes
+-------------------------------------------------- */
+h1 {
+    font-size: 63px;
+}
+h2 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.col-lg-3 p {
+    text-align: center;
+    color: #a5b1b1;
+}
+.lead{
+    color: #888888;
+}
+
+/* Section CSS
+-------------------------------------------------- */
+.sectionWhite {
+    background-color: white;
+}
+.sectionGrey {
+    background-color: #f8f8f8;
+}
+section {
+    padding: 100px 0 100px 0;
+}
+.section .col-lg-3{
+    text-align: center;
+}
+.section h2 {
+    letter-spacing: 2px;
+}
+.teamRow h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: initial;
+}
+.teamRow .card-body {
+    text-align: center;
+}
+.sub-heading {
+    text-transform: uppercase;
+    color: #989898;
+    font-size: smaller;
+    letter-spacing: 2px;
+}
+.teamRow .card{
+    border: 0px;
+}
+.teamRow .description {
+    color: black;
+    font-weight: 500;
+    font-size: small;
+}
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: #22ad21;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.circleIcon{
+    margin-top: 40%;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.featurette .col-md-7{
+    padding-bottom: 23px;
+}
+hr.new1 {
+    border-top: 1px solid #22ad21;
+    width: 84px;
+}
+.greenBtn {
+    background-color: #22ad21;
+    color: white;
+    border-radius: 0px;
+    border: 0px;
+    color: #fff;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-box-shadow: 100px 0px 0 0 #22ad21 inset, -100px 0px 0 #22ad21 inset;
+
+}
+.greenBtn:hover {
+    -webkit-box-shadow: 0px 0px 0 0 white inset, 0px 0px 0 white inset;
+
+}
+.yellowBtn{
+    background-color: #f6cd5f;
+    color: white;
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+.modal-desc{
+    padding-top:5px;
+}
+.bottom {
+    height: 100px;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.bottom:before {
+    display: table-row;
+    height: 100%;
+    content: "";
+}
+.p-small{
+    text-transform: initial;
+    display: block;
+    padding: 20px;
+    font-weight: 100;
+}
+.main {
+    background-color: #333231;
+}
+li.list {
+    list-style-type: none;
+    position: relative;
+}
+li.list:before {
+    content: "\003E";
+    font-size: 19px;
+    position: relative;
+    color: #22ad21;
+}
+.orderedList {
+    display: contents;
+    font-weight: 600;
+}
+.display-4{
+    color: #5d5d5d;
+}
+.analytics p {
+    text-transform: uppercase;
+    color: white !important;
+}
+.analytics h2 {
+    color: white !important;
+    font-size: 70px;
+}
+.header-white .display-4{
+    color: white !important;
+    font-weight: 700;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+.header-grey .display-4{
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+
+/* FOOTER CSS
+-------------------------------------------------- */
+.footer-info .display-5 {
+    text-align: left;
+    text-transform: none;
+}
+.footer-info {
+    color: #a5b1b1;
+}
+.footer-info .fa {
+    font-size: 12px;
+}
+.footer-info .far {
+    font-size: 12px;
+}
+
+
+/* Form CSS
+-------------------------------------------------- */
+.form-control{
+    border-radius: 0px;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.hovereffect:hover .overlay {
+    opacity: 1;
+    padding: 20px;
+}
+
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+
+}
+
+
+.hovereffect h2 {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    border: 1px solid white;
+    height: -webkit-fill-available;
+
+}
+
+.hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    border: 1px solid #fff;
+    margin: 50px 0 0 0;
+    background-color: transparent;
+}
+
+.hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect a.info, .hovereffect h2 {
+    /* -webkit-transform: scale(0.7);
+     -ms-transform: scale(0.7);
+     transform: scale(0.7);
+     */
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+
+    opacity: 0;
+    filter: alpha(opacity=0);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.hovereffect:hover a.info, .hovereffect:hover h2 {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/* TABLE CSS
+-------------------------------------------------- */
+.filterable {
+    margin-top: 15px;
+}
+.filterable .panel-heading .pull-right {
+    margin-top: -20px;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+.filters .form-control{
+    font-weight: 700;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;
+}
+
+
+/* PANELS CSS
+-------------------------------------------------- */
+.panel-primary {
+    border-color: #428bca !important;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    width: 100%;
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #428bca;
+}
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #428bca;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.pull-right {
+    float: right!important;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.glyphicon-filter:before {
+    content: "\e138";
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.3);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* RETURN TO TOP CSS
+-------------------------------------------------- */
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .headerLogo {
+        width: 150px;
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .header {
+        width: 300px;
+    }
+    .header img {
+        width: 150px;
+    }
+
+    .header h1 {
+        top: 22px;
+        font-weight: 600;
+    }
+
+    .jumbotron{
+        height: auto;
+    }
+    .featurette-heading{
+        font-size: 30px;
+        font-weight: 900;
+    }
+}
+
+
