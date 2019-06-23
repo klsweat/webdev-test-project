@@ -47,6 +47,7 @@ $(document).ready(function () {
       $(".showimage").attr("src", img);          
       $('.modal-title').html(title);
       $('.modal-desc').html(pdesc);
+      $('.p-small').hide();
     });
     $("#myModal").modal('show'); //This can also be $("#myModal").modal({ show: true });
 
