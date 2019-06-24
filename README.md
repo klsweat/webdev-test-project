@@ -1,5 +1,5 @@
 # WEBDEV TEST PROJECT
-SCAD test project is a single page web page, That incorporates Html, PHP, and javascript. It took from Monday to Sunday to complete. It was time consuming project while attempting to build from scratch with a full time job.
+SCAD test project is a single page web page, That incorporates HTML, PHP, and Javascript. It took from Monday to Sunday to complete. 
  
 ### Prerequisites
 
